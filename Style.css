@@ -1,0 +1,43 @@
+/* Style for form inputs */
+.form-floating {
+    margin-bottom: 10px;
+}
+
+.form-control {
+    width: 10cm;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/* Style for labels */
+label {
+    margin-left: 5px;
+    font-size: 0.875rem;
+    color: #6c757d;
+    border: 1px solid #ced4da;
+    width: 20cm;
+    height: 1.5cm;
+    float: left;
+}
+
+/* Container width */
+.container {
+    width: 10cm;
+}
+.btnn{
+    padding:0.375rem 0.75rem;
+    height: 1.5cm;
+    width: 2cm;
+    float: center;
+    color: #6c757d;
+    border: 1px solid #ced4da;
+}
