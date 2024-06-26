@@ -12,6 +12,7 @@
 
 <body>
 
+    <!-- 
     <div class="form-floating">
         <input type="text" class="form-control" placeholder="Enter number01" id="number01">
         <label for="number01">Number 1</label>
@@ -26,9 +27,29 @@
     <button type="button" onclick="calc('*')" class="btnn">*</button>
     <button type="button" onclick="calc('/')" class="btnn">/</button>
 
-    <label id="outPut"></label>
+    <label id="outPut"></label> 
+    -->
 
-    <script src="app.js"></script>
+    <div class="form-floating">
+        <input type="text" class="form-control" placeholder="Enter name" id="txtName">
+        <label for="txtName">Name</label>
+    </div>
+    <div class="form-floating">
+        <input type="text" class="form-control" placeholder="Enter age" id="txtAge">
+        <label for="txtAge">Age</label>
+    </div>
+    <div class="form-floating">
+        <input type="text" class="form-control" placeholder="Enter address" id="txtAddress">
+        <label for="txtAddress">Address</label>
+    </div>
+    <button type="button" onclick="addCustomer()" class="btn btn-primary" value="Submit">Submit</button>
+    <button type="button" onclick="showAllCustomers()" class="btn btn-primary" value="Show All Customers">Show All Customers</button>
+
+    <table border="1" id="tblCustomers">
+      
+    </table>
+
+    <script src="appp.js"></script>
 </body>
 
 </html>

@@ -1,4 +1,4 @@
-/* Style for form inputs */
+/* Style for form inputs
 .form-floating {
     margin-bottom: 10px;
 }
@@ -19,7 +19,7 @@
 }
 
 /* Style for labels */
-label {
+/* label {
     margin-left: 5px;
     font-size: 0.875rem;
     color: #6c757d;
@@ -30,7 +30,7 @@ label {
 }
 
 /* Container width */
-.container {
+/* .container {
     width: 10cm;
 }
 .btnn{
@@ -40,4 +40,4 @@ label {
     float: center;
     color: #6c757d;
     border: 1px solid #ced4da;
-}
+} */ */ */
